@@ -1,0 +1,9 @@
+# Create and activate virtual environment (recommended)
+python -m venv resume_env
+source resume_env/bin/activate  # On Windows: resume_env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+streamlit run resume.py
